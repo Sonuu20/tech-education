@@ -1,0 +1,28 @@
+
+
+@media(max-width: 768px){
+    .drop-menu{
+        position: fixed;
+        top: 4rem;
+        right: 2%;
+        background-color: #b41870;
+        flex-direction: column;
+        border-radius: 0.4rem;
+        display: none;
+        align-items: center;
+        padding: 5px;
+        padding-right: 8px;
+    }
+    
+    .drop-menu li {
+        padding-bottom: 0.25rem;
+    }
+     #closeBtn{
+        display: none;
+    
+    }
+
+    .drop-menu{
+        display: none;
+    }
+}
